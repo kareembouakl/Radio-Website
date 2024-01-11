@@ -24,6 +24,16 @@ ul {
     margin: 1.6%;
   }
 }
+.nav-icon{
+  display: flex;
+  justify-content: space-evenly;
+  img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+
 
 
 body {

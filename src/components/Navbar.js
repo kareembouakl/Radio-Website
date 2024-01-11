@@ -13,12 +13,18 @@ function Navbar() {
         <div>About Us</div>
         <div>Shop</div>
         <div>Contact Us</div> 
-        <div>Column 7</div>
-        <div>Column 8</div>
-        <div>Column 9</div>
-        <div>Column 10</div>
-        <div>(icons)</div>
-        <div>(icons)</div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div className='nav-icon'>
+          <img src={require('../assets/images/icon-whatsapp.png')} alt="logo" className='icon-wp'/>
+          <img src={require('../assets/images/icon-yt.png')} alt="logo" className='icon-yt'/>
+        </div>
+        <div className='nav-icon'>
+          <img src={require('../assets/images/icon-instagram.png')} alt="logo" className='icon-insta'/>
+          <img src={require('../assets/images/icon-fb.png')} alt="logo" className='icon-fb'/>
+        </div>
       </ul>
     </nav>
   )
